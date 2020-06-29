@@ -20,7 +20,7 @@
 }
 
 .jumbo-content {
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -190,6 +190,9 @@ footer {
 }
 
 @media only screen and (max-width: 775px) {
+    .active-bar {
+        background: none;
+    }
 
     .item1 {
         order: 2;
