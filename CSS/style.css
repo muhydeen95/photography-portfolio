@@ -20,13 +20,24 @@
 }
 
 .jumbo-content {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
+}
+
+.jumbo-btn {
+    background: #000000;
+    color: #ffffff;
+}
+
+.jumbo-btn2 {
+    background: transparent;
+    border: 1px solid #000000;
+    color: #000000;
 }
 
 .jumbo-left img {
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
 
 /* About image*/
@@ -49,6 +60,10 @@
 /* Service */
 #service {
     background: #E2EDF1;
+}
+
+#service h5 {
+    font-weight: bold;
 }
 
 .icon-wrapper {
@@ -155,48 +170,6 @@
     background: #000000;
 }
 
-/* Instagram section */
-.gallery {
-    position: relative;
-}
-
-.slide-btn-left {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background: grey;
-    position: absolute;
-    top: 40%;
-    left: 50px;
-    color: black;
-    z-index: 20;
-}
-.slide-btn-right {
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    background: grey;
-    position: absolute;
-    top: 40%;
-    right: 50px;
-    color: black;
-    z-index: 20;
-}
-.fa-chevron-left {
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    color: #ffffff;
-    z-index: 20;
-}
-.fa-chevron-right {
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    color: #ffffff;
-    z-index: 20;
-}
-
 /* contact section */
 .form-group {
     background: rgba(0, 0, 0, 0.05);;
@@ -217,6 +190,7 @@ footer {
 }
 
 @media only screen and (max-width: 775px) {
+
     .item1 {
         order: 2;
     }
@@ -224,5 +198,30 @@ footer {
     .item2 {
         order: 1;
     }
+
+    .jumbo-content {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .jumbo-content h2, .title {
+        font-size: 1.5rem;
+    }
+
+    .jumbo-left img {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .service-detail {
+        width: 40%;
+    }
+
+    .title p {
+        font-size: .8rem;
+    }
+
+    
 }
 
