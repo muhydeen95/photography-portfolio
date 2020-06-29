@@ -1,0 +1,228 @@
+*, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.active-bar {
+    background: #E2EDF1;
+    color: black;
+}
+
+.jumbotron {
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.jumbo-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.jumbo-left img {
+    width: 100%;
+    height: 80vh;
+}
+
+/* About image*/
+.about-image img{
+   height: 60vh;
+   width: 100%;
+   margin: 50px auto;
+   position: relative;
+}
+
+.image-border {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    border: 1px solid black;
+    top: 0;
+    left: 80px;
+}
+
+/* Service */
+#service {
+    background: #E2EDF1;
+}
+
+.icon-wrapper {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.outer {
+    position: absolute;
+    top: 28px;
+    right: 25px;
+}
+
+.inner {
+    position: absolute;
+    top: 41px;
+    right: 40px;
+}
+
+.left {
+    position: absolute;
+    top: 35px;
+    right: 55px;
+}
+.right {
+    position: absolute;
+    top: 33px;
+    right: 41px;
+}
+
+.inner2 {
+    position: absolute;
+    top: 43px;
+    right: 29px;
+}
+.inner3 {
+    position: absolute;
+    top: 50px;
+    right: 42px;
+}
+
+.pink {
+    background: #FFD0D0;
+}
+.yellow {
+    background: #FEF9CB;
+}
+.green {
+    background: #DAF7C7;
+}
+.blue {
+    background: #A8D9F4;
+}
+
+/* portfolio section */
+.gallery-wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.gallery-wrapper img {
+    width: 100%;
+}
+
+.span {
+    grid-row: span 2;
+}
+
+.zone {
+    cursor:pointer;
+    text-align: center;
+    border-radius:4px;
+    border:1px solid #bbb;
+    transition: all 0.3s linear;
+}
+
+#portfolio .btn, .contact-btn {
+    color: #ffffff;
+    background: #000000;
+}
+
+/* customer feedback */
+.feedback-img {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+/* card */
+.card {
+    border-top: 10px solid #000;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card .btn {
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    background: #000000;
+}
+
+/* Instagram section */
+.gallery {
+    position: relative;
+}
+
+.slide-btn-left {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    top: 40%;
+    left: 50px;
+    color: black;
+    z-index: 20;
+}
+.slide-btn-right {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: grey;
+    position: absolute;
+    top: 40%;
+    right: 50px;
+    color: black;
+    z-index: 20;
+}
+.fa-chevron-left {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    color: #ffffff;
+    z-index: 20;
+}
+.fa-chevron-right {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #ffffff;
+    z-index: 20;
+}
+
+/* contact section */
+.form-group {
+    background: rgba(0, 0, 0, 0.05);;
+}
+
+.form-control {
+    background: transparent;
+    border-bottom: 2px solid #333;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+
+/* footer */
+footer {
+    background: #E2EDF1;
+}
+
+@media only screen and (max-width: 775px) {
+    .item1 {
+        order: 2;
+    }
+    
+    .item2 {
+        order: 1;
+    }
+}
+
