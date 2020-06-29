@@ -26,13 +26,26 @@
 
 .jumbo-btn {
     background: #000000;
+    border: 1px solid #000000;
     color: #ffffff;
+    font-weight: bold;
 }
 
 .jumbo-btn2 {
     background: transparent;
     border: 1px solid #000000;
+    font-weight: bold;
     color: #000000;
+}
+.jumbo-btn:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.jumbo-btn2:hover {
+    background: black;
+    border:2px solid #000000;
+    color: #ffffff;
 }
 
 .jumbo-left img {
@@ -146,7 +159,16 @@
 
 #portfolio .btn, .contact-btn {
     color: #ffffff;
+    border: 2px solid #000000;
+    font-weight: bold;
     background: #000000;
+}
+
+#portfolio .btn:hover, 
+.contact-btn:hover {
+    color: #000000;
+    border: 2px solid #000000;
+    background: #ffffff;
 }
 
 /* customer feedback */
