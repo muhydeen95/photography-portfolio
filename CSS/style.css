@@ -150,11 +150,18 @@
 }
 
 /* customer feedback */
-.feedback-img {
-    height: 100px;
-    width: 100px;
+.carousel {
+    width: 70%;
     margin: 0 auto;
 }
+ .carousel-control-prev-icon, 
+ .carousel-control-next-icon {
+    background: grey;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    left: 0;
+ }
 
 /* card */
 .card {
